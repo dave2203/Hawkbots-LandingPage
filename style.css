@@ -1,0 +1,64 @@
+﻿#slideshow{
+	opacity: 100;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px; 
+	margin-top: -80px; 
+	font-size: 30px; 
+	font-weight: 100;  
+	letter-spacing: -0.04em;  
+	text-align: center;
+	font-family: "SQMarket", Helvetica, sans-serif;
+	color: white; 
+}
+
+#content {
+
+    opacity: 100;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px; 
+	margin-top: -80px; 
+	font-size: 24px; 
+	font-weight: 100;  
+	letter-spacing: -0.04em;  
+	text-align: center;
+	font-family: "SQMarket", Helvetica, sans-serif;
+	color: white; 
+
+}
+
+#image img
+{
+   position: absolute;
+  /* margin-left: -250px; 
+   margin-top: -80px; */   
+   text-align: center;
+   z-index: 10000;		
+}
+
+.center
+{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.center div
+{
+    margin-left: -150px;
+    margin-top: -250px;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+ul
+{
+    list-style-type: none;
+}
