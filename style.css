@@ -10,9 +10,13 @@
 	font-weight: 100;  
 	letter-spacing: -0.04em;  
 	text-align: center;
-	font-family: "SQMarket", Helvetica, sans-serif;
-	color: white; 
 }
+
+#content *, p {
+	font-family:'Open Sans', sans-serif !important; 	
+	color: black;
+}
+
 
 #content {
 
@@ -27,7 +31,6 @@
 	font-weight: 100;  
 	letter-spacing: -0.04em;  
 	text-align: center;
-	font-family: "SQMarket", Helvetica, sans-serif;
 	color: white; 
 
 }
@@ -51,7 +54,7 @@
 .center div
 {
     margin-left: -150px;
-    margin-top: -250px;
+    margin-top: -180px;
     height: 100px;
     width: 100px;
 }

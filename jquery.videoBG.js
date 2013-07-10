@@ -123,6 +123,7 @@
 		}
 
 		$('body > .videoBG_wrapper').width(windowWidth).height(windowHeight);
+		
 			
 	}
 
@@ -173,10 +174,14 @@
 					$.fn.videoBG.setFullscreen($video);
 				},100);	
 			});
+			
 			$.fn.videoBG.setFullscreen($video);
+			
+		    $(".videoBG").animate({opacity: 1},1000);
+		  			       
 		}
 			
-		
+		 
 		// video standard element
 		var v = $video[0];
 		
