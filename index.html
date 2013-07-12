@@ -1,5 +1,8 @@
 ﻿<html>
 <head>
+
+    <title>HAWK BOTS</title>
+
 	<link rel="stylesheet" href="jquery-ui.css">
 	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
@@ -7,12 +10,22 @@
 	<script type="text/javascript" src="jquery.videoBG.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	
+		
+		
+    <script type="text/javascript">
+    
+        function setValue(){
+        document.sampleForm.email.value;
+        document.forms["sampleForm"].submit();
+         }
+         
+   </script>
+   
 </head>
 <body>
 
 	<div id="slideshow">
-		<p style="display:none">Forget Google Maps</p>
+		<p style="display:none">Forget google maps</p>
 		<p style="display:none">Travel around the world</p>
 		<p style="display:none">Without leaving home</p> 
 	</div>
@@ -27,8 +40,50 @@
 	
 	</div>
     
-   	<div id="content" style="display:none">
-		<h1>Hawkbots</h1>
+   	<div id="rectangle" style="display:none">
+   	   	  
+   	   	  <div id="image2"> 
+   	   	     
+   	   	     <div>
+   	   	     
+   	   	       <img src="image/logo.png" alt="" style="display:none" /> 
+   	   	     
+   	   	     </div>
+   	   	 
+   	   	 </div>
+   	   	  
+   	   	 <div id="titulo">
+   	   	 
+   	   	  <h1> HawkBots </h1>
+   	   	 
+   	   	 </div>
+   	     	   	 
+   	     	   	 
+   	     <div id="content"> 
+   	     
+   	       <b> Travel around the world right from your browser </b>  
+   	     
+   	     </div>
+   	     
+   	     <div id="content2">
+   	    
+   	       <b> Sign up now and get early access </b>  
+   	     
+   	     </div>
+   	    
+   	    
+   	     <form class="form-horizontal" id='sampleForm' name="sampleForm" action='register.php' method='post' accept-charset='UTF-8'>
+  	     
+   	     <div id="login">
+					<div id="widget" class="widget">
+						<input type="text" id="email" name="email" class="widgetInput" placeholder="name@email.com" required="">
+						<div class="widgetButton"><a onclick="setValue();">Register</a></div>
+						<div id="w1progressIndicator"></div>
+					</div>
+		</div>
+   	   	 
+   	   </form>
+	<!--	<h1>Hawkbots</h1>
 		<h3>Tourism Redefined.</h3>
 		<button>Invite Only</button>
 		<ul>
@@ -36,8 +91,8 @@
 			<li>Account</li>
 			<li>Iron Drone, Inc</li>
 		</ul>
-		<div id="logo">this is a logo</div>
-	</div>
-	
+		<div id="logo">this is a logo</div> -->
+		
+	</div>	
 </body>
 </html>

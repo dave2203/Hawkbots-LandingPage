@@ -17,6 +17,7 @@ $(document).ready(function() {
 	 $('#slideshow p:nth-child(1)').fadeIn(1000, function(){
 	    $(this).animate({marginLeft: "-200px", opacity: 0 },1000, function(){
 	      $(this).hide();
+	        $('slide1').
 	 		$('#slideshow p:nth-child(2)').show("slide" , { direction: "right" },1000, function(){
 	 		 $(this).animate({marginLeft: "-200px", opacity: 0 },1000, function(){
 	           $(this).hide();
@@ -42,7 +43,18 @@ $(document).ready(function() {
                      $(".videoBG").animate({opacity: 1},2000);
                      
 
-	 				      $('#content').fadeIn(1000);
+	 				      $('#rectangle').fadeIn(500, function(){
+	 				      
+	 				        $('#image2 img').fadeIn(500, function(){
+	 				        
+	 				             $('#titulo').fadeIn(500, function(){
+	 				               
+	 				                $('#content').show();
+	 				             
+	 				                })
+	 				        
+	 				               })	 				        
+	 				             })
                                })
 	 						})
 						})
@@ -52,3 +64,5 @@ $(document).ready(function() {
 	 	})
 	})
 })
+
+
